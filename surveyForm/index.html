@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cycling Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title"> Cycling Survey Form</h1>
+    <p id="description">Please fill out this form!</p>
+    <form method="post" action='https://survey-form-demo.freecodecamp.org' id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name<input id="name" name="name" type="text" required placeholder="Enter your name" /></label>
+        <label for="email" id="email-label">Email<input id="email" name="email" type="email" required placeholder="Enter your email" /></label>
+        <label for="number" id="number-label">Age (years)<input id="number" type="number" name="age" min="18" max="100" placeholder="Enter your age"/></label>
+        </fieldset>
+        <fieldset>
+        <label for="recreational-rider" id="recreational-rider-label"><input id="recreational-rider" type="radio" name="rider-type" class="inline" value="recreational-rider" /> Recreational Rider</label>
+        <label for="Pro Rider" id="pro-rider-label"><input id="pro-rider" type="radio" name="rider-type" class="inline" value="pro-rider" /> Pro Rider</label>
+      </fieldset>
+      <fieldset>
+      <legend>What do you want to see more in the cycling industry?</legend>
+<label for="races">
+          <input id="industry" type="checkbox" value="races" name="races" class="inline" />Races</a>
+        </label>
+        <label for="group-rides">
+          <input id="industry" type="checkbox" value="group-rides" name="group-rides" class="inline" /> No-drop group rides</a>
+        </label>
+        <label for="events">
+          <input id="industry" type="checkbox" value="events" name="events" class="inline" /> Community events</a>
+        </label>
+        <label for="videos">
+          <input id="industry" type="checkbox" value="events" name="videos" class="inline" /> YouTube videos</a>
+        </label>
+          </fieldset>
+          <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="dropdown">What kind of bike do you ride?
+          <select id="dropdown" name="dropdown">
+            <option value="">select an option</option>
+            <option value="1">Road</option>
+            <option value="2">Mountain</option>
+            <option value="3">Gravel</option>
+            <option value="4">Time Trial</option>
+          </select>
+        </label>
+        <label for="comments">Any additional comments?
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Cycling is...."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
