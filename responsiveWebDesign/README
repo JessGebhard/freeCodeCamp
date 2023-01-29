@@ -1,0 +1,13 @@
+These files make up a record of when I learned fundamentals of Web Design using HTML and CSS! This is the first topic I explored within freecodecamp.
+
+see the catPhotoApp files for basic HTML. I really like how basic and almost retro this page looks! Reference this for including hyperlinks, and other things like bolding text or setting up text section elements.
+
+see the cafeMenu files for basic CSS. my favorite part of this project was the insertion of visuals (small images and a large background image).
+
+see the cssColorMarkers files for more in depth exploration of CSS colors and manipulations like gradients and shadows.
+
+see the registrationForm files for a bare-bones setup of a form that users can fill out. the color scheme of this form is really pleasant and night-mode friendly!
+
+see the surveyForm files for a more independently-designed data collection form (I chose a bike-centric theme, but this is how to set up something to collect any information from users or customers).
+
+see the rothkoPainting files for an overview of the "CSS Box Model." my favorite parts of this project are the blurring of colors, rounding of edges, and shape transformations.
