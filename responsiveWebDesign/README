@@ -11,3 +11,5 @@ see the registrationForm files for a bare-bones setup of a form that users can f
 see the surveyForm files for a more independently-designed data collection form (I chose a bike-centric theme, but this is how to set up something to collect any information from users or customers).
 
 see the rothkoPainting files for an overview of the "CSS Box Model." my favorite parts of this project are the blurring of colors, rounding of edges, and shape transformations.
+
+see the flexboxPhotoGallery files for a very nice photo gallery template, that rounds the edges of photos and ensures proper alignment of boxes with window resizing.
