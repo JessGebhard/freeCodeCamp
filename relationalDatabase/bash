@@ -1,0 +1,41 @@
+bash commands to remember
+	key note, adding the --help flag to any command will return some helpful explanation of what it does. reminder, adding a flag looks like this: ls --help 
+
+echo [text] = prints text to the terminal
+
+pwd = print working directory (or folder), returns file pathway of where you're currently at
+
+ls = list contents of current folder, prints all the contents, and distinguishs other folders (blue) from photos (pink/purple) and just files (plain)
+ls -l = long list format (-l is a flag here that modifies the ls (list) command)
+
+cd = change directory, just a navigation command
+cd . = takes you to the folder you are in (does nothing, I think?)
+cd .. = go back a folder
+cd ../.. = go back two folders
+
+more = see what's inside a file
+
+clear = empties terminal
+
+mkdir [new folder name] = makes new folder or directory
+mkdir [existing folder name]/[new file or folder name] = make a folder within a sub-folder quickly
+
+touch [new file name] = makes new file
+touch [existing pathway]/[new file name]
+
+cp [file name] [folder name] = copies a file to a folder (just duplicates things around and reorganizes)
+
+rm [file name] = deletes from current folder
+rmdir [folder name] = deletes folder from current folder
+rm -r = removes everything, even if a folder isn't empty, use this with CAUTION
+
+mv [file name] [new file name] = renames file name
+
+mv [file name] [folder name] = moves file to new sub-folder in current folder
+mv [file name] [folder name]/[subfolder name] moves things 2 levels quickly
+mv [pathway to file] [pathway to another folder] = all the shortcuts
+
+find [name of folder or file] = find things or see the file tree. you can just enter "find" with nothing else to see what's in the current folder. this is different than list because you can see the sub-levels for what's inside folders too! (in the results, ./ means current folder)
+find -name [file or folder name] will show the pathway to whatever file or folder you're trying to track down
+
+
